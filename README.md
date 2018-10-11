@@ -7,9 +7,10 @@
 1. viewprot 宽度为移动设备的逻辑宽度：
   ```
  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
-
+  ```
 2. Js计算方式如下[以iphone6为基准]：
-
+  ```
 var deviceWidth = document.documentElement.clientWidth;
 if(deviceWidth > 750) deviceWidth = 750;
 document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
+  ```
