@@ -1,5 +1,3 @@
-# -
-参考自：https://juejin.im/post/5bbdfccff265da0ae6775fed
 
 当 deviceWidth 大于 750px 时，我们应该去访问的是 pc 版的页面，所以当 deviceWidth 大于 750px 时我们不应该再改变根元素的 font-size 值
 完整的代码如下：
@@ -14,3 +12,5 @@ var deviceWidth = document.documentElement.clientWidth;
 if(deviceWidth > 750) deviceWidth = 750;
 document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';
   ```
+# -
+参考自：https://juejin.im/post/5bbdfccff265da0ae6775fed
